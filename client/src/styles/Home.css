@@ -1,0 +1,27 @@
+.main-home {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 100%;
+  border: 2px solid black;
+}
+.home-image {
+  background-color: aqua;
+  height: 400px;
+  width: 100%;
+}
+.img {
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

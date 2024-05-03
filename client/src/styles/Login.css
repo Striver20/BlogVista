@@ -1,0 +1,77 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: fit-content;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.img {
+  height: 220px;
+  width: 280px;
+  align-self: center;
+}
+.textfeild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  margin: 10px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding: 8px;
+  display: block;
+  border: 0cap;
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginbtn {
+  padding: 10px;
+  width: 70%;
+  background-color: orange;
+  color: white;
+  border: 0cap;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 0px;
+}
+.loginbtn:hover {
+  padding: 11px;
+  background-color: darkorange;
+}
+.or {
+  color: lightgrey;
+  margin: 0px;
+}
+.accountbtn {
+  padding: 10px;
+  width: 70%;
+  background-color: rgba(0, 0, 255, 0.758);
+  color: white;
+  border: 0cap;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 0px;
+}
+.accountbtn:hover {
+  background-color: blue;
+  padding: 11px;
+}
